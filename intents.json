@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello!", "Hi there!", "Hey!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "Glad to help!", "No problem!"]
+    },
+    {
+      "tag": "sales",
+      "patterns": ["What are the current offers?", "Do you have any discounts?", "Can I get a deal?"],
+      "responses": ["Yes, we have some great offers available right now.", "Check our website for ongoing discounts.", "We can provide special deals on bulk orders."]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Do you know any jokes?", "I need some humor"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Parallel lines have so much in common. It's a shame they'll never meet!", "What do you call an alligator in a vest? An investigator!"]
+    }
+  ]
+}
